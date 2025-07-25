@@ -190,3 +190,85 @@ main > section:first-of-type h2 span {
     max-width: 90%;
   }
 }
+
+
+/* ===== MOST POPULAR TUTORIALS ===== */
+.popular-tutorials {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+}
+
+.popular-tutorials h2 {
+  font-size: 32px;
+  margin-bottom: 60px;
+  font-weight: 300;
+}
+
+.popular-tutorials h2 span {
+  color: #C271FF;
+  font-weight: bold;
+}
+
+.tutorials-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tutorial-card {
+  width: 250px;
+  background-color: white;
+  color: #333;
+  text-align: left;
+}
+
+.tutorial-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.tutorial-card h3 {
+  font-size: 18px;
+  margin: 12px 0 6px;
+}
+
+.tutorial-card p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.tutorial-card div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tutorial-card h4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.stars {
+  margin: 8px 0;
+  color: #C271FF;
+}
+
+.tutorial-card h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #C271FF; /* Purple text for name */
+}
+
+.tutorial-card .profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
